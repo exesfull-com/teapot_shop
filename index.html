@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Teapot Shop </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="header-area">
+			<div class="main-header ">
+				<div class="header-bottom header-sticky">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-xl-1 col-lg-1 col-md-1 col-sm-3">
+								<div class="logo">
+									<a href="index.html"><img src="favicon.ico" alt=""></a>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-8 col-md-7 col-sm-5">
+							</div>
+							<div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 fix-card">
+								<ul class="header-right f-right d-none d-lg-block d-flex justify-content-between">
+									<li class="d-none d-lg-block"> <a href="admin" class="btn header-btn">Админка</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12">
+								<div class="mobile_menu d-block d-lg-none"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="slider-area ">
+			<div class="slider-active">
+				<div class="single-slider" data-background="assets/img/hero/h1_hero.jpg">
+					<div class="container">
+						<div class="row d-flex align-items-center justify-content-between">
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-md-block">
+								<div class="hero__img">
+									<img src="https://cdn1.akusherstvo.ru/9d5/ad7/1124132_2616041.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-xl-5 col-lg-5 col-md-5 col-sm-8">
+								<div class="hero__caption">
+									<h1 >Купить<br>Чайник </h1>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <br><br>
+		<section class="latest-product-area padding-bottom">
+			<div class="container">
+				<div class="row product-btn d-flex justify-content-end align-items-end">
+					<div class="col-xl-6 col-lg-5 col-md-5">
+						<div class="section-tittle mb-30">
+							<h2>Cписок товаров</h2>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-7 col-md-7">
+						<div class="properties__button f-right">
+							<nav>
+								<div class="nav nav-tabs" id="nav-tab" role="tablist">
+									<a onclick="select_teapots('all')" class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true">Все</a>
+									<a onclick="select_teapots('new')" class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" role="tab" aria-controls="nav-profile" aria-selected="false">Новые</a>
+									<a onclick="select_teapots('low')" class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" role="tab" aria-controls="nav-contact" aria-selected="false">Дешевые</a>
+									<a onclick="select_teapots('high')" class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" role="tab" aria-controls="nav-contact" aria-selected="false">Дорогие</a>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-content" id="nav-tabContent">
+
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<div class="row" id="prods">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-area footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-7 col-lg-7 col-md-7">
+						<div class="footer-copy-right">
+							<p>
+								Copyright &copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script> All rights reserved | This template is made by <a href="https://exesfull.com/" target="_blank">Exesfull</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/js/jquery.slicknav.min.js"></script>
+
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/animated.headline.js"></script>
+	<script src="assets/js/jquery.magnific-popup.js"></script>
+
+	<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+	<script src="assets/js/main.js"></script>
+    <script src="api.js"></script>
+    <script>select_teapots('all');</script>
+
+</body>
+
+</html>
